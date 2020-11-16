@@ -1,0 +1,88 @@
+Note:
+- 'avg' is the mean decibel value over the sequence. However, most sequences have periods
+of silence, so this is not completely representative of the sequence.
+- 'rating' is a percentage in regards to volume, where: normal = 100%, quiet < 100%, and loud > 100%.
+
+- commands used:
+
+# Demux audio from all .ogg files in the directory and place in new sub directory called audio
+alias demux='mkdir audio; for i in *.ogg; do ffmpeg -i $i -c:v copy -map a "audio/audio_$i"; done'
+
+# Detect mean and max decibels for all .ogg audio files in directory
+alias detect_vol='for i in *.ogg; do
+printf "%s%s%s\n" "------------------------" "$i" "------------------------";
+ffmpeg -i $i -af volumedetect -f null /dev/null;
+done'
+
+----- General sequences ----
+brfcom4s.ogg       	avg:-9.8	    rating: 100%
+brfcom.ogg         	avg:-9.2	    rating: 100%
+c001.ogg           	avg:-6.5	    rating: 110% <- loud takeoff
+devastation.ogg    	avg:-8.2	    rating: 100%
+eidos-logo.ogg     	avg:-9.2	    rating: 100%
+end.ogg            	avg:-7.4	    rating: 100%
+factory.ogg        	avg:-17.4	    rating: 100%
+fastplay.ogg       	avg:-5.4	    rating: 100%
+incomint.ogg       	avg:-7.7	    rating: 100%
+incomtns.ogg       	avg:-5.7	    rating: 100%
+inflight.ogg       	avg:-3.0	    rating: 120% <- By far the loudest sequence yet
+outro.ogg          	avg:-7.5	    rating: 110% <- Some loud explosions in beginning
+plyr4sec.ogg       	avg:-13.0	    rating: 100%
+prjupdat.ogg       	avg:-7.9	    rating: 100%
+pumpkin.ogg        	avg:-16.1	    rating: 100%
+titles.ogg         	avg:-14.1	    rating: 105%
+transport.ogg      	avg:-6.2	    rating: 100%
+victory.ogg        	avg:-8.3	    rating: 100%
+
+----- cam1 sequences -----
+c001end.ogg        	avg:-6.2		rating: 110%
+c001.ogg           	avg:-6.6		rating: 110%
+c001pl.ogg         	avg:-6.9		rating: 100%
+cam1ac.ogg         	avg:-5.8		rating: 100%
+cam1acp.ogg        	avg:-6.7		rating: 100%
+cam1ascv.ogg       	avg:-5.5		rating: 100%
+cam1b.ogg          	avg:-5.8		rating: 100%
+cam1b_p.ogg        	avg:-5.8		rating: 100%
+cam1bpow.ogg       	avg:-7.0		rating: 100%
+cam1ca.ogg         	avg:-5.7		rating: 100%
+cam1capl.ogg       	avg:-6.0		rating: 100%
+cam1ccf.ogg        	avg:-7.0		rating: 100%
+cam1ccom.ogg       	avg:-4.4		rating: 100%
+cam1clz.ogg        	avg:-6.5		rating: 100%
+cam1cnp.ogg        	avg:-7.3		rating: 100%
+cam1dnp.ogg        	avg:-6.4		rating: 100%
+cam1d.ogg          	avg:-5.5		rating: 100%
+cam1dp1.ogg        	avg:-6.2		rating: 100%
+cam1dp2.ogg        	avg:-6.2		rating: 100%
+cam1.ogg           	avg:-6.1		rating: 100%
+cam1out1.ogg       	avg:-6.8		rating: 100%
+cam1out2.ogg       	avg:-7.0		rating: 90% <- Nexus is a bit quiet here
+cam1out3.ogg       	avg:-8.9		rating: 100%
+cam1out4.ogg       	avg:-9.2		rating: 90% <- Nexus hard to hear at first, but gets loud towards end
+cam1out5.ogg       	avg:-5.3		rating: 100%
+cam1out6.ogg       	avg:-10.9		rating: 100%
+map1a_c.ogg        	avg:-5.8		rating: 100%
+map1cexp.ogg       	avg:-5.5		rating: 100%
+map1c.ogg          	avg:-7.2		rating: 100%
+sub1_1.ogg         	avg:-4.6		rating: 100%
+sub1_1p.ogg        	avg:-7.7		rating: 100%
+sub1_2.ogg         	avg:-7.7		rating: 90%
+sub12pt2.ogg       	avg:-6.1		rating: 90%
+sub13bet.ogg       	avg:-5.1		rating: 100% <- Bit hard to hear voice due to background noise
+sub13gam.ogg       	avg:-4.2		rating: 100%
+sub13np1.ogg       	avg:-6.6		rating: 100%
+sub13np2.ogg       	avg:-8.5		rating: 100%
+sub1_3.ogg         	avg:-7.3		rating: 90%
+sub1_3p1.ogg       	avg:-8.7		rating: 100%
+sub14anp.ogg       	avg:-6.7		rating: 100%
+sub1_4bn.ogg       	avg:-5.9		rating: 100%
+sub1_4b.ogg        	avg:-6.5		rating: 100%
+sub14bpl.ogg       	avg:-5.1		rating: 100%
+sub1_4.ogg         	avg:-5.2		rating: 100%
+sub1_4pl.ogg       	avg:-8.4		rating: 100%
+sub1_5.ogg         	avg:-6.8		rating: 100%
+sub1_5pl.ogg       	avg:-9.3		rating: 100%
+sub1_7b.ogg        	avg:-6.5		rating: 100%
+sub17fmv.ogg       	avg:-6.6		rating: 100%
+sub1_7.ogg         	avg:-5.2		rating: 100%
+sub1_7pl.ogg       	avg:-5.8		rating: 100%
