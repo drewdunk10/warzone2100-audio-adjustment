@@ -1,5 +1,5 @@
 # warzone2100-audio-adjustment
-Addresses issue [Issue #1200](https://github.com/Warzone2100/warzone2100/issues/1200) in the Warzone2100 project.
+Addresses [issue #1200](https://github.com/Warzone2100/warzone2100/issues/1200) in the Warzone2100 project.
 
 The purpose of this repository is to review the video sequences for Warzone2100 and
 determine which sequences need their volume adjusted.

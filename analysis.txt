@@ -6,7 +6,7 @@ of silence, so this is not completely representative of the sequence.
 - commands used:
 
 # Demux audio from all .ogg files in the directory and place in new sub directory called audio
-alias demux='mkdir audio; for i in *.ogg; do ffmpeg -i $i -c:v copy -map a "audio/audio_$i"; done'
+alias demux='mkdir audio; for i in *.ogg; do ffmpeg -i $i -c:v copy -map a "audio/$i"; done'
 
 # Detect mean and max decibels for all .ogg audio files in directory
 alias detect_vol='for i in *.ogg; do
@@ -86,3 +86,50 @@ sub1_7b.ogg        	avg:-6.5		rating: 100%
 sub17fmv.ogg       	avg:-6.6		rating: 100%
 sub1_7.ogg         	avg:-5.2		rating: 100%
 sub1_7pl.ogg       	avg:-5.8		rating: 100%
+
+----- cam2 sequences -----
+c002.ogg            avg:-7.7		rating: 110%
+c2diif2.ogg        	avg:-6.3		rating: 100%
+cam2_1.ogg         	avg:-5.8		rating: 100%
+cam22fmv.ogg       	avg:-6.4		rating: 100%
+cam2_2n2.ogg       	avg:-5.6		rating: 100%
+cam2_2n.ogg        	avg:-6.2		rating: 100%
+cam2_2.ogg         	avg:-4.0		rating: 100%
+cam22pl1.ogg       	avg:-7.0		rating: 100%
+cam22pl2.ogg       	avg:-12.3		rating: 100%
+cam22pl3.ogg       	avg:-7.3		rating: 100%
+cam2_5.ogg         	avg:-7.7		rating: 100%
+cam2_5pl.ogg       	avg:-7.8		rating: 100%
+cam26afm.ogg       	avg:-5.6		rating: 100%
+cam2_6a.ogg        	avg:-6.5		rating: 100%
+cam26bfm.ogg       	avg:-5.6		rating: 100%
+cam2_6b.ogg        	avg:-6.2		rating: 100%
+cam26pl1.ogg       	avg:-6.1		rating: 100%
+cam26pl2.ogg       	avg:-5.2		rating: 100%
+cam27fmv.ogg       	avg:-7.1		rating: 100%
+cam2_7.ogg         	avg:-5.3		rating: 100%
+cam2_8a.ogg        	avg:-6.5		rating: 100%
+cam28apl.ogg       	avg:-6.6		rating: 100%
+cam2acol.ogg       	avg:-7.3		rating: 100%
+cam2ap1.ogg        	avg:-6.3		rating: 100%
+cam2ap.ogg         	avg:-6.3		rating: 100%
+cam2bcol.ogg       	avg:-7.7		rating: 100%
+cam2b.ogg          	avg:-5.3		rating: 100%
+cam2bpl.ogg        	avg:-4.5		rating: 100%
+cam2ca.ogg         	avg:-7.2		rating: 100%
+cam2capl.ogg       	avg:-8.8		rating: 100%
+cam2cb.ogg         	avg:-4.9		rating: 100%
+cam2cbpl.ogg       	avg:-10.9		rating: 100%
+cam2dico.ogg       	avg:-7.2		rating: 90%
+cam2_diib.ogg      	avg:-4.6		rating: 100%
+cam2diib.ogg       	avg:-4.6		rating: 100%
+cam2diif.ogg       	avg:-7.9		rating: 100%
+cam2diin.ogg       	avg:-7.8		rating: 100%
+cam2diip.ogg       	avg:-10.2		rating: 100%
+cam2_di.ogg        	avg:-5.7		rating: 100%
+cam2dipl.ogg       	avg:-12.4		rating: 100%
+cam2int1.ogg       	avg:-5.9		rating: 100%
+cam2int2.ogg       	avg:-8.1		rating: 100%
+cam2inta.ogg       	avg:-7.0		rating: 100%
+cam2intb.ogg       	avg:-7.5		rating: 100%
+cam2out.ogg        	avg:-9.7		rating: 110%
