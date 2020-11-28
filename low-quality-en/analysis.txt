@@ -14,26 +14,26 @@ done'
 ----- general sequences -----
 audio_brfcom4s.ogg       	rating:100
 audio_brfcom.ogg         	rating:100
-audio_c001.ogg           	rating:120 <-
-audio_devastation.ogg    	rating:110 <-
-audio_eidos-logo.ogg     	rating:120 <-
-audio_end.ogg            	rating:110 <-
+audio_c001.ogg           	rating:120 <- .2
+audio_devastation.ogg    	rating:110 <- .5
+audio_eidos-logo.ogg     	rating:120 <- .3
+audio_end.ogg            	rating:110 <- .3
 audio_factory.ogg        	rating:100
 audio_fastplay.ogg       	rating:100
 audio_incomint.ogg       	rating:100
 audio_incomtns.ogg       	rating:100
-audio_inflight.ogg       	rating:140 <- Identified in original issue
-audio_outro.ogg          	rating:130 <-
+audio_inflight.ogg       	rating:140 <- .1
+audio_outro.ogg          	rating:130 <- .25
 audio_plyr4sec.ogg       	rating:100
 audio_prjupdat.ogg       	rating:100
 audio_pumpkin.ogg        	rating:100
 audio_titles.ogg         	rating:100
 audio_transport.ogg      	rating:100
-audio_victory.ogg        	rating:110 <-
+audio_victory.ogg        	rating:110 <- .5
 
 ----- cam1 sequences ------
-audio_c001end.ogg        	rating:120 <-
-audio_c001.ogg           	rating:120 <- Voice is fine, effects are extremely loud
+audio_c001end.ogg        	rating:120 <- .4
+audio_c001.ogg           	rating:120 <- .3
 audio_c001pl.ogg         	rating:100
 audio_cam1ac.ogg         	rating:100
 audio_cam1acp.ogg        	rating:100
@@ -53,7 +53,7 @@ audio_cam1dp1.ogg        	rating:100
 audio_cam1dp2.ogg        	rating:100
 audio_cam1.ogg           	rating:100
 audio_cam1out1.ogg       	rating:100
-audio_cam1out2.ogg       	rating:110 <-
+audio_cam1out2.ogg       	rating:110 <- .5
 audio_cam1out3.ogg       	rating:100
 audio_cam1out4.ogg       	rating:100
 audio_cam1out5.ogg       	rating:100
@@ -65,14 +65,14 @@ audio_sub1_1.ogg         	rating:100
 audio_sub1_1p.ogg        	rating:100
 audio_sub1_2.ogg         	rating:100
 audio_sub12pt2.ogg       	rating:100
-audio_sub13bet.ogg       	rating:110 <-
-audio_sub13gam.ogg       	rating:110 <- Poor voice audio, easier to understand when quiet
-audio_sub13np1.ogg       	rating:110 <-
-audio_sub13np2.ogg       	rating:110 <-
+audio_sub13bet.ogg       	rating:110 <- .5
+audio_sub13gam.ogg       	rating:110 <- .5
+audio_sub13np1.ogg       	rating:110 <- .5
+audio_sub13np2.ogg       	rating:110 <- .5
 audio_sub1_3.ogg         	rating:100
-audio_sub1_3p1.ogg       	rating:110 <-
-audio_sub14anp.ogg       	rating:110 <-
-audio_sub1_4bn.ogg       	rating:110 <- Loud background noises before Nexus
+audio_sub1_3p1.ogg       	rating:110 <- .7
+audio_sub14anp.ogg       	rating:110 <- .5
+audio_sub1_4bn.ogg       	rating:110 <- .5
 audio_sub1_4b.ogg        	rating:100
 audio_sub14bpl.ogg       	rating:100
 audio_sub1_4.ogg         	rating:100
@@ -85,20 +85,20 @@ audio_sub1_7.ogg         	rating:100
 audio_sub1_7pl.ogg       	rating:100
 
 ----- cam2 sequences -----
-audio_c002.ogg           	rating:120 <-
+audio_c002.ogg           	rating:120 <- TBD Audacity
 audio_c2diif2.ogg        	rating:100
 audio_cam2_1.ogg         	rating:100
 audio_cam22fmv.ogg       	rating:100
-audio_cam2_2n2.ogg       	rating:110 <-
-audio_cam2_2n.ogg        	rating:110 <-
+audio_cam2_2n2.ogg       	rating:110 <- .5
+audio_cam2_2n.ogg        	rating:110 <- .5
 audio_cam2_2.ogg         	rating:100
 audio_cam22pl1.ogg       	rating:100
 audio_cam22pl2.ogg       	rating:100
 audio_cam22pl3.ogg       	rating:100
-audio_cam2_5.ogg         	rating:110 <-
+audio_cam2_5.ogg         	rating:110 <- .5
 audio_cam2_5pl.ogg       	rating:100
-audio_cam26afm.ogg       	rating:110 <-
-audio_cam2_6a.ogg          	rating:100
+audio_cam26afm.ogg       	rating:110 <- .5
+audio_cam2_6a.ogg        	rating:100
 audio_cam26bfm.ogg       	rating:100
 audio_cam2_6b.ogg        	rating:100
 audio_cam26pl1.ogg       	rating:100
@@ -113,9 +113,9 @@ audio_cam2ap.ogg         	rating:100
 audio_cam2bcol.ogg       	rating:100
 audio_cam2b.ogg          	rating:100
 audio_cam2bpl.ogg        	rating:100
-audio_cam2ca.ogg         	rating:110 <-
+audio_cam2ca.ogg         	rating:110 <- .5
 audio_cam2capl.ogg       	rating:100
-audio_cam2cb.ogg         	rating:110 <-
+audio_cam2cb.ogg         	rating:110 <- .5
 audio_cam2cbpl.ogg       	rating:100
 audio_cam2dico.ogg       	rating:100
 audio_cam2_diib.ogg      	rating:100
@@ -123,16 +123,16 @@ audio_cam2diib.ogg       	rating:100
 audio_cam2diif.ogg       	rating:100
 audio_cam2diin.ogg       	rating:100
 audio_cam2diip.ogg       	rating:100
-audio_cam2_di.ogg        	rating:110 <-
+audio_cam2_di.ogg        	rating:110 <- .5
 audio_cam2dipl.ogg       	rating:100
-audio_cam2int1.ogg       	rating:130 <- Very loud explosions
-audio_cam2int2.ogg       	rating:120 <-
-audio_cam2inta.ogg       	rating:110 <-
-audio_cam2intb.ogg       	rating:110 <-
-audio_cam2out.ogg        	rating:120 <-
+audio_cam2int1.ogg       	rating:130 <- .25
+audio_cam2int2.ogg       	rating:120 <- .5
+audio_cam2inta.ogg       	rating:110 <- .5
+audio_cam2intb.ogg       	rating:110 <- .5
+audio_cam2out.ogg        	rating:120 <- .2
 
 ----- cam3 sequences -----
-audio_c003.ogg           	rating:120 <-
+audio_c003.ogg           	rating:120 <- TBD Audacity
 audio_c3ad1pl1.ogg       	rating:100
 audio_c3ad1pl2.ogg       	rating:100
 audio_c3ad1pl3.ogg       	rating:100
@@ -141,10 +141,10 @@ audio_c3ad2_12.ogg       	rating:100
 audio_c3ad2_14.ogg       	rating:100
 audio_c3ad2_16.ogg       	rating:100
 audio_c3ad2_17.ogg       	rating:100
-audio_c3ad2n2.ogg        	rating:110 <-
+audio_c3ad2n2.ogg        	rating:110 <- .35
 audio_c3ad2pl1.ogg       	rating:100
 audio_c3ad2pl2.ogg       	rating:100
-audio_c3ad2pl3.ogg       	rating:140 <- Extremely loud
+audio_c3ad2pl3.ogg       	rating:140 <- .15
 audio_c3ad2pl4.ogg       	rating:100
 audio_c3c.ogg            	rating:100
 audio_c3_d1_a.ogg        	rating:100
@@ -152,12 +152,12 @@ audio_c3_d1_b.ogg        	rating:100
 audio_cam3_1bn.ogg       	rating:100
 audio_cam3_1b.ogg        	rating:100
 audio_cam31bpl.ogg       	rating:100
-audio_cam31g2.ogg        	rating:110 <-
+audio_cam31g2.ogg        	rating:110 <- .5
 audio_cam31gam.ogg       	rating:100
-audio_cam3_1.ogg         	rating:120 <-
-audio_cam32a2.ogg        	rating:110 <-
-audio_cam32alp.ogg       	rating:110 <-
-audio_cam3_2b.ogg        	rating:110 <-
+audio_cam3_1.ogg         	rating:120 <- .4
+audio_cam32a2.ogg        	rating:110 <- .5
+audio_cam32alp.ogg       	rating:110 <- .5
+audio_cam3_2b.ogg        	rating:110 <- .5
 audio_cam32pl2.ogg       	rating:100
 audio_cam32pl3.ogg       	rating:100
 audio_cam32pl.ogg        	rating:100
@@ -168,15 +168,15 @@ audio_cam34mu1.ogg       	rating:100
 audio_cam34mu2.ogg       	rating:100
 audio_cam3aba.ogg        	rating:100
 audio_cam3abf.ogg        	rating:100
-audio_cam3ab.ogg         	rating:120 <-
-audio_cam3abpl.ogg       	rating:110 <-
+audio_cam3ab.ogg         	rating:120 <- .3
+audio_cam3abpl.ogg       	rating:110 <- .5
 audio_cam3ad1b.ogg       	rating:100
 audio_cam3ad2n.ogg       	rating:100
 audio_cam3bg.ogg         	rating:100
 audio_cam3_bn.ogg        	rating:100
 audio_cam3b.ogg          	rating:100
 audio_cam3bpl.ogg        	rating:100
-audio_cam3cbet.ogg       	rating:110 <-
+audio_cam3cbet.ogg       	rating:110 <- .5
 audio_cam3_cb.ogg        	rating:100
 audio_cam3_cg.ogg        	rating:100
 audio_cam3_cn.ogg        	rating:100
@@ -184,5 +184,5 @@ audio_cam3cpl1.ogg       	rating:100
 audio_cam3cpl2.ogg       	rating:100
 audio_cam3cpl3.ogg       	rating:100
 audio_cam3intb.ogg       	rating:100
-audio_cam3int.ogg        	rating:120 <-
+audio_cam3int.ogg        	rating:120 <- TBD Audacity
 audio_cam3intp.ogg       	rating:100
