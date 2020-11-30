@@ -3,13 +3,23 @@ Note:
 - commands used:
 
 # Demux audio from all .ogg files in the directory and place in new sub directory called audio
-alias demux='mkdir audio; for i in *.ogg; do ffmpeg -i $i -c:v copy -map a "audio/$i"; done'
+alias demux_all='mkdir audio; for i in *.ogg; do ffmpeg -i $i -c:v copy -map a "audio/$i"; done'
 
 # Detect mean and max decibels for all .ogg audio files in directory
 alias detect_vol='for i in *.ogg; do
 printf "%s%s%s\n" "------------------------" "$i" "------------------------";
 ffmpeg -i $i -af volumedetect -f null /dev/null;
 done'
+
+# Set volume of audio file to relative volume of original.
+setVolume() {
+    ffmpeg -i "$1" -filter:a volume="$2" new_"$1"
+}
+
+# Multiplex video and audio file into new file. Replaces original audio on first input.
+mux() {
+    ffmpeg -i "$1" -i "$2" -map 0:v -map 1:a -c copy -y "new_$1"
+}
 
 ----- general sequences -----
 audio_brfcom4s.ogg       	rating:100
@@ -85,7 +95,7 @@ audio_sub1_7.ogg         	rating:100
 audio_sub1_7pl.ogg       	rating:100
 
 ----- cam2 sequences -----
-audio_c002.ogg           	rating:120 <- TBD Audacity
+audio_c002.ogg           	rating:120 <- Audacity
 audio_c2diif2.ogg        	rating:100
 audio_cam2_1.ogg         	rating:100
 audio_cam22fmv.ogg       	rating:100
@@ -132,7 +142,7 @@ audio_cam2intb.ogg       	rating:110 <- .5
 audio_cam2out.ogg        	rating:120 <- .2
 
 ----- cam3 sequences -----
-audio_c003.ogg           	rating:120 <- TBD Audacity
+audio_c003.ogg           	rating:120 <- Audacity (-6.0)
 audio_c3ad1pl1.ogg       	rating:100
 audio_c3ad1pl2.ogg       	rating:100
 audio_c3ad1pl3.ogg       	rating:100
