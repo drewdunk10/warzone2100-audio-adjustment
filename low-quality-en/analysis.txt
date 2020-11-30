@@ -194,5 +194,5 @@ audio_cam3cpl1.ogg       	rating:100
 audio_cam3cpl2.ogg       	rating:100
 audio_cam3cpl3.ogg       	rating:100
 audio_cam3intb.ogg       	rating:100
-audio_cam3int.ogg        	rating:120 <- TBD Audacity
+audio_cam3int.ogg        	rating:120 <- Audacity (-6.0)
 audio_cam3intp.ogg       	rating:100
