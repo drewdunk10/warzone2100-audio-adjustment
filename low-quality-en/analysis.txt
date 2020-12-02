@@ -24,7 +24,7 @@ mux() {
 ----- general sequences -----
 audio_brfcom4s.ogg       	rating:100
 audio_brfcom.ogg         	rating:100
-audio_c001.ogg           	rating:120 <- .2
+audio_c001.ogg           	rating:120 <- .3
 audio_devastation.ogg    	rating:110 <- .5
 audio_eidos-logo.ogg     	rating:120 <- .3
 audio_end.ogg            	rating:110 <- .3
